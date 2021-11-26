@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 	const [boards, setBoards] = useState([
-		{id: 1, title: 'Done', items:[{id: 1, title: 'Shopping grocery'}, {id: 2, title: 'Garbage'}, {id: 3, title: 'cook dinner'}]},
+		{id: 1, title: 'Done', items:[{id: 1, title: 'Shopping grocery'}, {id: 2, title: 'Garbage'}, {id: 3, title: 'Cook dinner'}]},
 		{id: 2, title: 'Check', items:[{id: 4, title: 'Code review'}, {id: 5, title: 'Task Fibonachi'}, {id: 6, title: 'Task Factorial'}]},
 		{id: 3, title: 'ToDo', items:[{id: 7, title: 'Make homeworks with kids'}, {id: 8, title: 'Read book before sleep'}, {id: 9, title: 'Play family game'}]}
 	])
